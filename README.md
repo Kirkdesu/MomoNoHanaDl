@@ -1,5 +1,7 @@
-# MomoNoHanaDl
+# MomoNoHanaDl [![HitCount](https://hits.dwyl.com/Kirkdesu/MomoNoHanaDl.svg?style=flat)](http://hits.dwyl.com/Kirkdesu/MomoNoHanaDl)
 Baixe capítulos e obras completas do site https://momonohanascan.com/
+
+Script também permite fazer o download de capítulos e obras de outros sites que também usam o tema Madara
 
 ## cap.py
 
