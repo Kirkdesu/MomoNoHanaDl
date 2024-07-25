@@ -6,6 +6,7 @@ Baixe capítulos e obras completas do site https://momonohanascan.com/
 
 ### Variáveis para controle de ZIP e exclusão de pasta
 `create_zip_file = True`  **# Define se deve criar o arquivo ZIP**
+
 `delete_folder_after_zip = False` **# Define se deve excluir a pasta após criar o ZIP**
 
 ### Links dos capítulos separados por vírgulas
