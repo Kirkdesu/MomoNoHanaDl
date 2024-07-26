@@ -36,7 +36,7 @@ def download_image(url, folder_path, image_number):
 
 # Função para criar um arquivo ZIP
 def create_zip(folder_path, zip_name):
-    zip_path = os.path.join(base_dir, f"{zip_name}.zip")
+    zip_path = os.path.join(folder_path, f"{zip_name}.zip")
     with zipfile.ZipFile(zip_path, 'w') as zip_file:
         for root, _, files in os.walk(folder_path):
             for file in files:
@@ -92,7 +92,7 @@ def process_manga(manga_url):
         # Criar o arquivo ZIP se a variável create_zip_file estiver True
         if create_zip_file:
             zip_name = capitulo
-            create_zip(capitulo_dir, zip_name)
+            create_zip(obra_dir, zip_name)
 
         # Excluir a pasta do capítulo se a variável delete_folder_after_zip estiver True
         if delete_folder_after_zip:
